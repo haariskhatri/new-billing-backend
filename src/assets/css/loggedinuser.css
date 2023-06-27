@@ -1,0 +1,28 @@
+.logged-in-user-section {
+    display: flex;
+    margin: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.logged-in-user-section span {
+    font-size: 35px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 10px;
+
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+
+}

@@ -1,0 +1,61 @@
+.side-menu {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.12);
+    width: 270px;
+    height: 100vh;
+    position: fixed;
+
+}
+
+.list-title {
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+
+
+.side-menu ul li a {
+    display: flex;
+    padding-left: 12px;
+    column-gap: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 0 10px;
+    color: grey;
+}
+
+
+.side-menu ul li a.active {
+    background-color: #001C30;
+    color: white;
+    border-radius: 10px;
+    padding-left: 12px;
+    padding: 15px 30px;
+    margin: 0 10px;
+}
+
+.side-menu ul li a.active:hover {
+    color: white;
+}
+
+.side-menu ul li a:hover {
+    color: #001C30;
+    padding-left: 12px;
+    padding: 15px 30px;
+    margin: 0 10px;
+}
+
+
+
+.logo img {
+    max-width: 200px;
+    padding: 20px 0px 20px 20px;
+}
+
+.menu-options {
+    border-bottom: 1px solid rgba(168, 167, 167, 0.635);
+    padding-bottom: 30px;
+}

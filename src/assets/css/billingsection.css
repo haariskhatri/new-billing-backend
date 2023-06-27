@@ -1,0 +1,158 @@
+.billing-table .container {
+    position: relative;
+}
+
+.invoice .row {
+    position: relative;
+}
+
+
+
+
+
+.invoice .left {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.12); */
+}
+
+.table-header {
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.date-fields .row-title,
+.address-section .row-title {
+    font-weight: bold;
+}
+
+.date-section {
+    padding: 10px 10px;
+    border-bottom: 1px solid grey;
+
+}
+
+.bill-right {
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 900px;
+    width: 20%;
+    background-color: #001C30;
+    border-radius: 10px;
+    color: white;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.bill-right-fields {
+    display: flex;
+    column-gap: 10px;
+}
+
+.review-invoice-button {
+    border-radius: 10px;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+
+.bill-right-fields input {
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    padding: 5px 10px;
+    flex-grow: 1;
+}
+
+.bill-right-fields label {
+    width: 70px;
+}
+
+.billing-table table {
+    padding: 10px 10px;
+}
+
+.billing-table input {
+    width: 100%;
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: #F0F7F6;
+
+}
+
+.number-field {
+    width: 10%;
+}
+
+.address-section {
+    padding: 10px 10px;
+}
+
+.address-fields {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 80%;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+.address-fields table tr td {
+    border: 0;
+}
+
+.address-fields table tr td input,
+.address-fields table tr td textarea {
+
+    width: 100%;
+    border: 0;
+    background-color: #F0F7F6;
+    border-radius: 5px;
+    padding: 7px 12px;
+    outline: 0;
+}
+
+.address-fields table tr td textarea {
+    height: 100px;
+}
+
+.address-textarea {
+    vertical-align: text-top;
+}
+
+.input-title {
+    width: 30%;
+
+}
+
+.billing-table i {
+    cursor: pointer;
+}
+
+
+.add-button {
+    cursor: pointer;
+    margin-right: 22px;
+    border-radius: 10px;
+}
+
+
